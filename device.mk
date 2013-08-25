@@ -23,11 +23,5 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/m7vzw/overlay
 # common overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m7-common/overlay-cdma
 
-# Verizon properties
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.ril_class=HTCQualcommRIL \
-    ro.com.google.clientidbase=android-verizon-us \
-    ro.carrier=Verizon
-
 # Inherit from m7-common
 $(call inherit-product, device/htc/m7-common/m7-common.mk)

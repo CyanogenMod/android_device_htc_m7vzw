@@ -28,10 +28,10 @@
 -include device/htc/m7-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := m7wls,m7vzw
+TARGET_OTA_ASSERT_DEVICE := m7wlv,m7vzw
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := m7wls
+TARGET_BOOTLOADER_BOARD_NAME := m7wlv
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
