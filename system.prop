@@ -23,7 +23,6 @@ ro.vendor.extension_library=/system/lib/libqc-opt.so
 ro.config.svlte1x=true
 ro.ril.transmitpower=true
 ro.baseband.arch=mdm
-ro.telephony.default_network=8
 ro.cdma.subscribe_on_ruim_ready=true
 ro.com.google.clientidbase=android-htc
 ro.com.google.clientidbase.yt=android-verizon
