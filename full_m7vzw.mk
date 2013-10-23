@@ -32,5 +32,5 @@ $(call inherit-product, device/htc/m7vzw/device.mk)
 PRODUCT_NAME := full_m7vzw
 PRODUCT_DEVICE := m7vzw
 PRODUCT_BRAND := htc
-PRODUCT_MANUFACTURER := htc
+PRODUCT_MANUFACTURER := HTC
 PRODUCT_MODEL := One
