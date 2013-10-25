@@ -9,7 +9,7 @@ ro.telephony.default_network=8
 ro.cdma.subscribe_on_ruim_ready=true
 telephony.lteOnCdmaDevice=1
 telephony.rilV7NeedCDMALTEPhone=true
-ro.telephony.ril_class=HTCQualcommRIL
+ro.telephony.ril_class=HTCQualcommM7CDMARIL
 ro.use_data_netmgrd=true
 
 # Carrier definitions
