@@ -26,3 +26,6 @@ gsm.sim.operator.iso-country=us
 gsm.operator.alpha=Verizon
 gsm.operator.numeric=311480
 gsm.operator.iso-country=us
+
+# Access VZW apps in Play store
+ro.com.google.clientidbase=android-verizon
