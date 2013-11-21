@@ -5,6 +5,7 @@
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 ril.subscription.types=NV,RUIM
+ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=8
 ro.cdma.subscribe_on_ruim_ready=true
 telephony.lteOnCdmaDevice=1
