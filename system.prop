@@ -4,12 +4,10 @@
 # RIL - AOSP properties
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/lib/libril-qc-qmi-1.so
-ril.subscription.types=NV,RUIM
 ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=8
 ro.cdma.subscribe_on_ruim_ready=true
 telephony.lteOnCdmaDevice=1
-ro.telephony.ril_class=HTCQualcommRIL
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
@@ -17,6 +15,8 @@ persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
 ro.ril.wp.feature=1
 ro.use_data_netmgrd=true
+ro.config.svlte1x=true
+ro.ril.svdo=true
 
 # Carrier definitions
 ro.cdma.home.operator.numeric=311480
