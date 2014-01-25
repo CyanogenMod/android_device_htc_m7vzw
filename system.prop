@@ -8,6 +8,7 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=8
 ro.cdma.subscribe_on_ruim_ready=true
 telephony.lteOnCdmaDevice=1
+ro.telephony.ril_class=HTCQualcommRIL
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
