@@ -6,9 +6,9 @@ $(call inherit-product, device/htc/m7vzw/full_m7vzw.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=HTCOneVZW \
-    BUILD_ID=KOT49H \
-    BUILD_FINGERPRINT="VERIZON/HTCOneVZW/m7wlv:4.4.2/KOT49H/334342.3:user/release-keys" \
-    PRIVATE_BUILD_DESC="4.10.605.3 CL334342 release-keys"
+    BUILD_ID=KTU84L \
+    BUILD_FINGERPRINT="VERIZON/HTCOneVZW/m7wlv:4.4.3/KTU84L/365669.2:user/release-keys" \
+    PRIVATE_BUILD_DESC="5.28.605.2 CL365669 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
