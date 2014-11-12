@@ -1,1 +1,2 @@
-
+# WLAN firmware
+etc/firmware/BCM4335B0_002.001.006.0296.0299.hcd
