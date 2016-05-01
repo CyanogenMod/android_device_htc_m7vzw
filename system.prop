@@ -8,7 +8,6 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.get_imsi_from_sim=true
 ro.telephony.default_network=10
 ro.telephony.ril_class=HTCQualcommRIL
-telephony.lteOnCdmaDevice=1
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
@@ -17,12 +16,3 @@ persist.radio.snapshot_timer=22
 ro.ril.wp.feature=1
 ro.use_data_netmgrd=true
 
-# Carrier definitions
-ro.cdma.home.operator.numeric=311480
-ro.cdma.home.operator.alpha=Verizon
-gsm.sim.operator.alpha=Verizon
-gsm.sim.operator.numeric=311480
-gsm.sim.operator.iso-country=us
-gsm.operator.alpha=Verizon
-gsm.operator.numeric=311480
-gsm.operator.iso-country=us
