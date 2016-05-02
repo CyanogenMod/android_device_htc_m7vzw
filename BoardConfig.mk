@@ -63,8 +63,5 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 # mmcblk0p32: 05fffc00 00000200 "reserve_3"
 # mmcblk0p29: 06069e00 00000200 "reserve"
 
-# Radio
-BOARD_RIL_CLASS := ../../../device/htc/m7vzw/ril
-
 # inherit from the proprietary version
 -include vendor/htc/m7vzw/BoardConfigVendor.mk
