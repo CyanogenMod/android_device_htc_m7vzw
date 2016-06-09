@@ -7,6 +7,7 @@ rild.libpath=/system/lib/libril-qc-qmi-1.so
 ro.telephony.default_cdma_sub=0
 ro.telephony.get_imsi_from_sim=true
 ro.telephony.default_network=10
+ro.telephony.ril.config=useStaticRadioCapability
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
@@ -14,4 +15,3 @@ persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
 ro.ril.wp.feature=1
 ro.use_data_netmgrd=true
-
