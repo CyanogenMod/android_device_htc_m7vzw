@@ -1,3 +1,4 @@
+# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,12 +34,6 @@ TARGET_OTA_ASSERT_DEVICE := m7wlv,m7vzw
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := m7wlv
 
-# Filesystem
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2348809216
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 27380416512
-BOARD_CACHEIMAGE_PARTITION_SIZE := 805305856
-BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
-
 # cat /proc/emmc:
 # dev:        size     erasesize name
 # mmcblk0p19: 000ffa00 00000200 "misc"
@@ -62,6 +57,12 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 # mmcblk0p30: 034ffa00 00000200 "reserve_2"
 # mmcblk0p32: 05fffc00 00000200 "reserve_3"
 # mmcblk0p29: 06069e00 00000200 "reserve"
+
+# Filesystem
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_CACHEIMAGE_PARTITION_SIZE := 805305856
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2348809216
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 27380416512
 
 # inherit from the proprietary version
 -include vendor/htc/m7vzw/BoardConfigVendor.mk
