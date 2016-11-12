@@ -8,6 +8,7 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.get_imsi_from_sim=true
 ro.telephony.default_network=10
 telephony.lteOnCdmaDevice=1
+ril.subscription.types=RUIM,NV
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
